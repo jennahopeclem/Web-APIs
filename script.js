@@ -17,23 +17,23 @@ var questions = [
     },
     {
         question: 'How do you create a function?',
-        answers: ['function:myFunction()', 'function=(myFunction);', 'myFunction():function', 'function myFunction()'],
-        correctAnswer: 'script'
+        answers: ['myFunction():function', 'function=(myFunction);', 'function:myFunction()', 'function myFunction()'],
+        correctAnswer: 'function:myFunction()'
     },
     {
-        question: 'Q3',
-        answers: ['javascript', 'scripting', 'js', 'script'],
-        correctAnswer: 'script'
+        question: 'What symbols help define a string of text?',
+        answers: ['curly brackets', 'quotation marks', 'exclamation points', 'colons'],
+        correctAnswer: 'quotation marks'
     },
     {
-        question: 'Q3',
-        answers: ['javascript', 'scripting', 'js', 'script'],
-        correctAnswer: 'script'
+        question: 'Var is short for what?',
+        answers: ['variance', 'varietal', 'variform', 'variable'],
+        correctAnswer: 'variable'
     },
     {
-        question: 'Q4',
-        answers: ['javascript', 'scripting', 'js', 'script'],
-        correctAnswer: 'script'
+        question: 'Which of these is a true loop in Javascript?',
+        answers: ['while loop', 'loopty loop', 'fruit loop', 'low loop'],
+        correctAnswer: 'while loop'
     },
 ]
 
