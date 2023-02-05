@@ -1,11 +1,13 @@
+var startButtonEl = startPageEl.querySelector("start-button");
+var submitBtn = document.querySelector("#submit");
+
 var startPageEl = document.querySelector("#start-page");
 var quizPageEl = document.querySelector("#quiz-page");
 var scorePageEl = document.querySelector("#high-score-page");
 
-var startButtonEl = startPageEl.querySelector("button");
-
-var questionEl = document.querySelector("#question");
-var answerButtons = document.querySelectorAll("#answers-button");
+var qPrompt = document.querySelector("#qPrompt");
+var aButtons = document.querySelectorAll("#answer-buttons");
+var finalScore = document.querySelector("#finalscore");
 
 var questionIndex = 0;
 
@@ -59,7 +61,7 @@ displayQuestion = function () {
 startButtonEl.addEventListener("click", function () {
     startPageEl.hidden = true;
     quizPageEl.hidden = false;
-    questionEl.textContent = questions[0].question;
+    qPrompt.textContent = questions[0].question;
     console.log(event.target);
     displayQuestion(0);
 });
