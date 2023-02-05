@@ -23,11 +23,24 @@ body {
     background-color: hsl(var(--hue), 40%, 90%);
 }
 
-.container {
+.quiz {
     width: 800px;
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
 
+}
+
+.high-scores {
+    text-aling: center;
+    padding: 0;
+}
+
+.high-scores ul li {
+    font-size: small;
+}
+
+.high-scores h1 {
+    margin-bottom: 0;
 }
